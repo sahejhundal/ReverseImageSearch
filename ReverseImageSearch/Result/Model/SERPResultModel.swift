@@ -16,6 +16,7 @@ struct ResultModel: Codable{
     var inline_images_serpapi_link: String?
     var image_results: [ImageResultsModel]?
     var error: String?
+    var knowledge_graph: KnowledgeGraphModel?
     
     enum CodingKeys: String, CodingKey {
         case search_metadata
@@ -26,6 +27,7 @@ struct ResultModel: Codable{
         case inline_images_serpapi_link
         case image_results
         case error
+        case knowledge_graph
     }
 }
 

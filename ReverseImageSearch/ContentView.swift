@@ -11,6 +11,7 @@ struct ContentView: View {
     @ObservedObject var resultVM = ResultViewModel()
     var body: some View {
         ResultParentView(resultVM: resultVM)
+//        ResultViewCaller()
     }
 }
 

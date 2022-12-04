@@ -143,9 +143,35 @@ final class ResultViewModel: NSObject, ObservableObject{
         }
     }
     
+    func loadData()  {
+        guard let url = Bundle.main.url(forResource: "elonmuskserp", withExtension: "json")
+            else {
+                print("Json file not found")
+                return
+            }
+        
+        let data = try? Data(contentsOf: url)
+        do{
+            let decoder = JSONDecoder()
+            let decoded = try decoder.decode(ResultModel.self, from: data!)
+            DispatchQueue.main.async {
+                self.result = decoded
+            }
+            print(decoded.search_information?.query_displayed as Any)
+        }
+        catch{
+            print("Error converting JSON to data")
+            print(error)
+            return
+        }
+    }
+    
     func pullSample(){
 //        if let file = URL(string: "https://serpapi.com/searches/3af7f52b8bb69558/637c94ff96f5d736f4f874d8.json") // bad
         if let file = URL(string: "https://serpapi.com/searches/c06a9bfdc6ed6738/637bd186dc02f13070e26306.json") // good (plaid)
+//        if let file = URL(string: "https://serpapi.com/searches/31122974f9bbe2b1/638ac81c2bc7d8b1273f46e7.json") // good (elon)
+//        if let file = URL(string: "https://serpapi.com/searches/4e69de3585b19d55/638d19ae34ff957960719413.json") // good (elon)
+            
         {
             file.asyncDownload { data, response, error in
                 guard let data = data else{

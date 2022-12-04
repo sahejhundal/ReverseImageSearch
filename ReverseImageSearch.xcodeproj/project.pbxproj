@@ -39,6 +39,8 @@
 		F66FE0AE29367C66007549EB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE0AD29367C66007549EB /* CameraViewController.swift */; };
 		F66FE0B129367D00007549EB /* isTakenUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE0B029367D00007549EB /* isTakenUIView.swift */; };
 		F66FE0B329367E7C007549EB /* ShutterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FE0B229367E7C007549EB /* ShutterButtonView.swift */; };
+		F6EEFDF3293D38DB00E232D6 /* elonmuskserp.json in Resources */ = {isa = PBXBuildFile; fileRef = F6EEFDF2293D38DA00E232D6 /* elonmuskserp.json */; };
+		F6EEFDF5293D3B8300E232D6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EEFDF4293D3B8300E232D6 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +77,8 @@
 		F66FE0AD29367C66007549EB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		F66FE0B029367D00007549EB /* isTakenUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isTakenUIView.swift; sourceTree = "<group>"; };
 		F66FE0B229367E7C007549EB /* ShutterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShutterButtonView.swift; sourceTree = "<group>"; };
+		F6EEFDF2293D38DA00E232D6 /* elonmuskserp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = elonmuskserp.json; path = ../../../../../Downloads/elonmuskserp.json; sourceTree = "<group>"; };
+		F6EEFDF4293D3B8300E232D6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				F65C117D292C379000446040 /* ParserClass.swift */,
+				F6EEFDF2293D38DA00E232D6 /* elonmuskserp.json */,
 			);
 			path = JSONParser;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			children = (
 				F66FE0B029367D00007549EB /* isTakenUIView.swift */,
 				F66FE0B229367E7C007549EB /* ShutterButtonView.swift */,
+				F6EEFDF4293D3B8300E232D6 /* CircleImage.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61238F429299BF500412F23 /* Preview Assets.xcassets in Resources */,
+				F6EEFDF3293D38DB00E232D6 /* elonmuskserp.json in Resources */,
 				F61238F129299BF500412F23 /* Assets.xcassets in Resources */,
 				F612390C292AE65100412F23 /* GoogleService-Info.plist in Resources */,
 			);
@@ -311,6 +318,7 @@
 				F60FFFA52936B9BF00044269 /* CameraOverlayView.swift in Sources */,
 				F61238ED29299BF400412F23 /* ReverseImageSearchApp.swift in Sources */,
 				F65C1187292C3DFE00446040 /* ImageResultView.swift in Sources */,
+				F6EEFDF5293D3B8300E232D6 /* CircleImage.swift in Sources */,
 				F6123902292AD6A100412F23 /* CameraViewModel.swift in Sources */,
 				F60FFF9E2936B5E600044269 /* CustomCameraView.swift in Sources */,
 				F65C1185292C383D00446040 /* ResultView.swift in Sources */,
