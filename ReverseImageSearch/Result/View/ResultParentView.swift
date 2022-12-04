@@ -38,9 +38,9 @@ struct ResultParentView: View{
             }
             //resultVM.pullSample()
         })
-        .onAppear{
-            resultVM.pullSample()
-        }
+//        .onAppear{
+//            resultVM.pullSample()
+//        }
         .sheet(isPresented: $resultVM.isCameraShowing) {
             CustomCameraView(capturedImage: $resultVM.photo)
         }
