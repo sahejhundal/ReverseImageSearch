@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>394705830684-fks99stf770bf88cp2eeve04a5063ouf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.394705830684-fks99stf770bf88cp2eeve04a5063ouf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDW5t5x4fcDykJeduayjDxVqp96T9Vh3n0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>394705830684</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sahejhundal.ReverseImageSearch</string>
+	<key>PROJECT_ID</key>
+	<string>reverseimagesearch-5c963</string>
+	<key>STORAGE_BUCKET</key>
+	<string>reverseimagesearch-5c963.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:394705830684:ios:9d6c8e4c4dd2945dd9f0d9</string>
+</dict>
+</plist>
