@@ -1,8 +1,6 @@
-# ReverseImageSearch
+# Reverse Image Search for iOS using SERP API
 
-### Reverse Image Search for iOS using SERP API
-
-### This app allows reverse image search right from your iOS device. Just open the app, take or select a picture, and let it do the magic
+##### This app allows reverse image search right from your iOS device. Just open the app, take or select a picture, and let it do the magic.
 
 ### DEMO (picture: Elon Musk)
 <img src="https://user-images.githubusercontent.com/69704913/205518670-57ba6474-c87d-438c-ab61-f8ed37367d4b.gif" alt="elonmusk" width="200"/>
